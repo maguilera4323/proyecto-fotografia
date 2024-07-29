@@ -46,12 +46,13 @@ const Comentario = ({ comentario, onReply }) => {
         onReply(comentario.usuario, newRespuesta);
         setRespuestaTexto('');
         setMostrarFormularioRespuesta(false);
+        window.location.reload()
     };
 
     return (
         <div className="comentario">
             <strong>{comentario.usuario}:</strong> {comentario.comentario}
-            {comentario.respuestas && comentario.respuestas.length > 0 && (
+            &nbsp; &nbsp;{comentario.respuestas && comentario.respuestas.length > 0 && (
                 <div>
                     <button className="btn-secondary btn-sm" onClick={handleToggleRespuestas}>
                         {mostrarRespuestas ? 'Ocultar Respuestas' : 'Mostrar Respuestas'}
@@ -146,6 +147,7 @@ export default function Comentarios({ comentarios, id }) {
 
     const handleReset = () => {
         setForm(initialForm);
+        window.location.reload()
     };
 
     const handleReply = (usuario, respuesta) => {

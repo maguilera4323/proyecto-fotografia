@@ -88,22 +88,11 @@
         },
         {
           "usuario": "Isabel Martínez",
-          "comentario": "El contenido es claro y detallado. ¿Podrías incluir ejemplos de fotos con diferentes ajustes de exposición?",
-          "respuestas": [
-            {
-              "usuario": "John Doe",
-              "respuesta": "aaaaa"
-            }
-          ]
+          "comentario": "El contenido es claro y detallado. ¿Podrías incluir ejemplos de fotos con diferentes ajustes de exposición?"
         },
         {
           "usuario": "Pedro Sánchez",
           "comentario": "Muy útil para fotógrafos principiantes. Agradecería más detalles sobre la relación entre la exposición y el enfoque."
-        },
-        {
-          "usuario": "John Doe",
-          "comentario": "Hola",
-          "respuestas": []
         }
       ]
     },

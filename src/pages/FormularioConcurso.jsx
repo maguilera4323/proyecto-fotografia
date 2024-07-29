@@ -68,6 +68,11 @@ export default function FormularioConcurso() {
                   </h3>
                 </div>
               </div>
+              {sendSuccess !== null && (
+                <div>
+                  {sendSuccess ? 'Email sent successfully!' : 'Failed to send email.'}
+                </div>
+              )}
               <form onSubmit={handleSubmit}>
                 <div className="row gy-3 gy-md-4 overflow-hidden">
                   <div className="col-12">
@@ -79,7 +84,7 @@ export default function FormularioConcurso() {
                       className="form-control"
                       name="username"
                       id="username"
-                      placeholder="First Name"
+                      placeholder="Ingrese su nombre"
                       value={form.username}
                       onChange={handleChange}
                     />
@@ -96,7 +101,26 @@ export default function FormularioConcurso() {
                       onChange={handleChange}
                     >
                       <option value="">Seleccione una opción</option>
-                      <option value="Hola">Hola</option>
+                      <option value="Concurso de Fotografía de Emociones">Concurso de Fotografía de Emociones</option>
+                      <option value="Concurso de Fotografía de Retratos">Concurso de Fotografía de Retratos</option>
+                      <option value="Premio de Fotografía de Moda">Premio de Fotografía de Moda</option>
+                      <option value="Concurso de Fotografía Nocturna">Concurso de Fotografía Nocturna</option>
+                      <option value="Concurso de Fotografía de Bodas">Concurso de Fotografía de Bodas</option>
+                      <option value="Concurso de Fotografía Astronómica">Concurso de Fotografía Astronómica</option>
+                      <option value="Premio de Fotografía de Naturaleza">Premio de Fotografía de Naturaleza</option>
+                      <option value="Concurso de Fotografía de Macro">Concurso de Fotografía de Macro</option>
+                      <option value="Premio de Fotografía en Blanco y Negro">Premio de Fotografía en Blanco y Negro</option>
+                      <option value="Concurso de Fotografía Submarina">Concurso de Fotografía Submarina</option>
+                      <option value="Concurso de Fotografía de Viajes">Concurso de Fotografía de Viajes</option>
+                      <option value="Premio de Fotografía de Arquitectura">Premio de Fotografía de Arquitectura</option>
+                      <option value="Concurso de Fotografía de Documental">Concurso de Fotografía de Documental</option>
+                      <option value="Premio de Fotografía de Vida Silvestre">Premio de Fotografía de Vida Silvestre</option>
+                      <option value="Concurso Internacional de Fotografía">Concurso Internacional de Fotografía</option>
+                      <option value="Concurso de Fotografía de Paisajes">Concurso de Fotografía de Paisajes</option>
+                      <option value="Concurso de Fotografía de Animales">Concurso de Fotografía de Animales</option>
+                      <option value="Concurso de Fotografía de Comida">Concurso de Fotografía de Comida</option>
+                      <option value="Concurso de Fotografía de Deportes">Concurso de Fotografía de Deportes</option>
+                      <option value="Concurso de Fotografía Urbana">Concurso de Fotografía Urbana</option>
                     </select>
                   </div>
                   <div className="col-12">
@@ -145,17 +169,12 @@ export default function FormularioConcurso() {
                         className="btn bsb-btn-xl btn-primary"
                         disabled={isSending}
                       >
-                        {isSending ? 'Sending...' : 'Send'}
+                        {isSending ? 'Envaindo...' : 'Enviado'}
                       </button>
                     </div>
                   </div>
                 </div>
               </form>
-              {sendSuccess !== null && (
-                <div>
-                  {sendSuccess ? 'Email sent successfully!' : 'Failed to send email.'}
-                </div>
-              )}
             </div>
           </div>
         </div>

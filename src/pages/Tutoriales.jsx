@@ -20,7 +20,7 @@ export function Tutoriales(){
         <br />
         <div className="container">
           <p className="centered-and-justified-text">
-              La comunidad de [inserte nombre de pagina] está siempre activa y en constante evolución y aprendizaje. Para las personas iniciadas en el mundo de la fotografía a veces todo puede resultar tedioso o algo dificil.
+              La comunidad está siempre activa y en constante evolución y aprendizaje. Para las personas iniciadas en el mundo de la fotografía a veces todo puede resultar tedioso o algo dificil.
           </p>
           <p className="centered-and-justified-text">
               Es por esto que hemos recopilado estos cursos para que tanto personas aficionadas como profesionales puedan seguir aprendiendo del bello mundo de la fotografía.
