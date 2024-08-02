@@ -15,35 +15,54 @@ export function Galerias(){
       setDatos(res)
     })
   },[])  */
+  const cardStyle = {
+    width: "25rem",
+    height: "27rem",
+    margin: "1rem"
+  };
 
-    return(
-      <>
-        <h1 className="mt-5 text-center">Galerías</h1>
-        <br />
-        <hr />
-        <div className="row justify-content-center">
-            <div className="col-md-4">
-              <div className="card" style={{width: "18rem"}}>
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <p>Hola</p>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <Link to="/galerias/temas">Ver Más +</Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card" style={{width: "18rem"}}>
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <p>Hola</p>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <Link to="/galerias/estilos">Ver Más +</Link>
-                </div>
-              </div>
-            </div>
-          </div>  
+  const imgStyle = {
+    height: "17rem",
+    objectFit: "cover"
+  };
 
-      </>
-    )
-  }
+  return (
+    <div className="container mt-5">
+      <h1 className="text-center">Galerías</h1>
+      <br />
+      <hr />
+      <div className="d-flex justify-content-center flex-wrap">
+        <div className="col-md-4 d-flex justify-content-center">
+          <div className="card" style={cardStyle}>
+            <img
+              src="../images/fotos/retrato/woman-3584435_1280.jpg"
+              className="card-img-top"
+              alt="..."
+              style={imgStyle}
+            />
+            <div className="card-body">
+              <h4>Temas</h4>
+              <br />
+              <Link to="/galerias/temas">Ver Galerias +</Link>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 d-flex justify-content-center">
+          <div className="card" style={cardStyle}>
+            <img
+              src="../images/fotos/larga-exposicion/agua-larga-exposicion.webp"
+              className="card-img-top"
+              alt="..."
+              style={imgStyle}
+            />
+            <div className="card-body">
+              <h4>Estilos</h4>
+              <br />
+              <Link to="/galerias/estilos">Ver Galerias +</Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
