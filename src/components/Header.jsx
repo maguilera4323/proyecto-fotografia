@@ -51,7 +51,7 @@ export function Header() {
   return (
     <div className="header">
       <div className="header__logo">
-        <strong>LOGO</strong>
+        {/* <strong>LOGO</strong> */}
       </div>
       <nav className="navbar">
         <ul className="navbar__menu">
@@ -124,7 +124,7 @@ export function Header() {
           )}
 
           <li className="navbar__item">
-            <a href="#" className="navbar__link">
+            <a href="/galerias" className="navbar__link">
               <span>Galerías</span>
             </a>
           </li>
