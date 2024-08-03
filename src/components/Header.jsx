@@ -143,6 +143,9 @@ export function Header() {
                     <a href="/editar-perfil" className="navbar__dropdown-item">
                       Editar Perfil
                     </a>
+                    <a href="/fotografos-favoritos" className="navbar__dropdown-item">
+                      Fotográfos Favoritos
+                    </a>
                     <a href="/suscripciones" className="navbar__dropdown-item">
                       Ver Suscripciones
                     </a>

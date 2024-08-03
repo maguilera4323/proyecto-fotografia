@@ -17,6 +17,7 @@ export function Login() {
       const data = await response.json();
 
       if (data.length > 0) {
+        console.log(data)
         const user = data[0];
         localStorage.setItem('user', JSON.stringify(user));
         window.location.href = '/';
