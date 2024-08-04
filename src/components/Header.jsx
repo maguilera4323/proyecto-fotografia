@@ -146,6 +146,9 @@ export function Header() {
                     <a href="/fotografos-favoritos" className="navbar__dropdown-item">
                       Fotográfos Favoritos
                     </a>
+                    <a href="/articulos-favoritos" className="navbar__dropdown-item">
+                      Artículos Favoritos
+                    </a>
                     <a href="/suscripciones" className="navbar__dropdown-item">
                       Ver Suscripciones
                     </a>

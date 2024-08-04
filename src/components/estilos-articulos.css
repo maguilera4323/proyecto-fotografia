@@ -101,3 +101,29 @@ h2 {
     opacity: 1.5;
   }
   
+.btn-danger {
+  background-color: #dc3545;
+  color: #ffffff;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.btn-danger:active,
+.btn-danger:focus,
+.btn-danger.active {
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.btn-danger:active {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+
+.btn-danger:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+
