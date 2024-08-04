@@ -5505,5 +5505,127 @@
         "../images/fotos/iluminacion/images.jpeg"
       ]
     }
-  ]
+  ],
+  "faqs": [
+        {
+          "id":1,
+          "tema":"Técnicas Fotográficas",
+          "pregunta": "¿Qué es la exposición en fotografía?",
+          "respuesta": "La exposición es la cantidad de luz que llega al sensor de la cámara, determinada por la combinación de apertura, velocidad de obturación y sensibilidad ISO."
+        },
+        {
+        "id":2,
+          "tema":"Técnicas Fotográficas",
+          "pregunta": "¿Cómo puedo conseguir un efecto de fondo borroso (bokeh) en mis fotos?",
+          "respuesta": "Usa una apertura amplia (número f pequeño), una lente de distancia focal larga y coloca al sujeto lejos del fondo para lograr un bokeh pronunciado."
+        },
+        {
+            "id":3,
+          "tema":"Técnicas Fotográficas",
+          "pregunta": "¿Qué es el balance de blancos y por qué es importante?",
+          "respuesta": "El balance de blancos ajusta los colores para que la imagen se vea natural. Es importante para evitar tonos de color no deseados, especialmente en diferentes condiciones de iluminación."
+        },
+        {
+            "id":4,
+          "tema":"Técnicas Fotográficas",
+          "pregunta": "¿Cómo puedo capturar fotografías nítidas de sujetos en movimiento?",
+          "respuesta": "Usa una velocidad de obturación rápida, enfoca anticipadamente el área donde estará el sujeto y sigue el movimiento con la cámara (panning)."
+        },
+        {
+            "id":5,
+          "tema":"Técnicas Fotográficas",
+          "pregunta": "¿Qué es la regla de los tercios en composición fotográfica?",
+          "respuesta": "La regla de los tercios divide la imagen en nueve partes iguales. Coloca los elementos clave de la escena a lo largo de estas líneas o en sus intersecciones para crear una composición equilibrada."
+        },
+        {
+            "id":6,
+          "tema":"Cámaras",
+          "pregunta": "¿Cuál es la diferencia entre una cámara DSLR y una cámara sin espejo?",
+          "respuesta": "Las cámaras DSLR usan un espejo y un visor óptico, mientras que las cámaras sin espejo no tienen espejo y utilizan un visor electrónico. Las cámaras sin espejo suelen ser más compactas y ligeras."
+        },
+        {
+            "id":7,
+          "tema":"Cámaras",
+          "pregunta": "¿Qué significa el término \"full frame\" en cámaras?",
+          "respuesta": "\"Full frame\" se refiere a un sensor de cámara del mismo tamaño que un fotograma de película de 35 mm (36x24 mm). Ofrece mejor rendimiento en condiciones de poca luz y una mayor profundidad de campo."
+        },
+        {
+            "id":8,
+          "tema":"Cámaras",
+          "pregunta": "¿Es mejor disparar en formato RAW o JPEG?",
+          "respuesta": "Disparar en formato RAW proporciona más información de la imagen y mayor flexibilidad en la postproducción, mientras que JPEG es más conveniente para compartir y ocupa menos espacio de almacenamiento."
+        },
+        {
+            "id":9,
+          "tema":"Cámaras",
+          "pregunta": "¿Qué es la velocidad de obturación y cómo afecta a mis fotos?",
+          "respuesta": "La velocidad de obturación controla el tiempo que el sensor está expuesto a la luz. Una velocidad rápida congela el movimiento, mientras que una velocidad lenta puede crear efectos de desenfoque de movimiento."
+        },
+        {
+            "id":10,
+          "tema":"Cámaras",
+          "pregunta": "¿Qué es la sensibilidad ISO y cómo debo ajustarla?",
+          "respuesta": "La sensibilidad ISO determina la sensibilidad del sensor a la luz. Un valor ISO bajo (100-200) es ideal para condiciones de buena iluminación, mientras que un valor ISO alto (800+) es útil en condiciones de poca luz pero puede introducir ruido en la imagen."
+        },
+        {
+            "id":11,
+          "tema":"Lentes",
+          "pregunta": "¿Qué diferencia hay entre una lente fija y una lente zoom?",
+          "respuesta": "Una lente fija tiene una distancia focal fija y generalmente ofrece mayor calidad óptica y apertura más amplia. Una lente zoom ofrece múltiples distancias focales, proporcionando más versatilidad."
+        },
+        {
+            "id":12,
+            "tema":"Lentes",
+          "pregunta": "¿Qué es la distancia focal y cómo afecta a mis fotos?",
+          "respuesta": "La distancia focal determina el ángulo de visión de la lente. Una distancia focal corta (gran angular) abarca un campo de visión amplio, mientras que una distancia focal larga (teleobjetivo) se centra en una parte más pequeña y distante de la escena."
+        },
+        {
+            "id":13,
+            "tema":"Lentes",
+          "pregunta": "¿Cuándo debo usar una lente macro?",
+          "respuesta": "Usa una lente macro para fotografiar sujetos muy pequeños a corta distancia, como insectos, flores o detalles de objetos, permitiendo capturar detalles finos con gran ampliación."
+        },
+        {
+            "id":14,
+            "tema":"Lentes",
+          "pregunta": "¿Qué es una lente \"rápida\"?",
+          "respuesta": "Una lente \"rápida\" tiene una apertura máxima amplia (número f pequeño), permitiendo más luz y la posibilidad de usar velocidades de obturación rápidas en condiciones de poca luz."
+        },
+        {
+            "id":15,
+            "tema":"Lentes",
+          "pregunta": "¿Cuál es la mejor lente para fotografía de retratos?",
+          "respuesta": "Las lentes de 50 mm a 85 mm con una apertura amplia (f/1.4 a f/2.8) son ideales para retratos, ya que proporcionan un buen desenfoque del fondo y una perspectiva natural."
+        },
+        {
+            "id":16,
+            "tema":"Accesorios",
+          "pregunta": "¿Por qué es útil un trípode y cuándo debo usarlo?",
+          "respuesta": "Un trípode proporciona estabilidad y elimina el movimiento de la cámara, siendo útil para exposiciones largas, fotografía de paisajes, retratos y situaciones de poca luz."
+        },
+        {
+            "id":17,
+            "tema":"Accesorios",
+          "pregunta": "¿Qué es un filtro polarizador y cómo mejora mis fotos?",
+          "respuesta": "Un filtro polarizador reduce los reflejos y el deslumbramiento, mejora el contraste y la saturación de los colores, especialmente en cielos y cuerpos de agua."
+        },
+        {
+            "id":18,
+            "tema":"Accesorios",
+          "pregunta": "¿Cuándo debo usar un flash externo en lugar del flash integrado de la cámara?",
+          "respuesta": "Un flash externo ofrece más potencia, control y flexibilidad en la dirección de la luz, mejorando la iluminación en condiciones de poca luz y evitando sombras duras."
+        },
+        {
+            "id":19,
+            "tema":"Accesorios",
+          "pregunta": "¿Qué es un disparador remoto y para qué se utiliza?",
+          "respuesta": "Un disparador remoto permite activar la cámara a distancia sin tocarla, ideal para evitar el movimiento de la cámara en exposiciones largas, fotografía de grupo y autorretratos."
+        },
+        {
+            "id":20,
+            "tema":"Accesorios",
+          "pregunta": "¿Cómo puedo proteger mi equipo fotográfico?",
+          "respuesta": "Usa bolsas acolchadas, fundas para lentes, filtros protectores, y mantenlo limpio y seco. Evita exponer el equipo a condiciones extremas de temperatura y humedad."
+        }
+      ]
 }

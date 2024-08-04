@@ -42,7 +42,7 @@ export default function FotografosFavoritos() {
 
     return (
         <div className="container">
-        <h1>Mis Fotógrafos Favoritos</h1>
+        <h1 className="mt-5 text-center">Mis Fotógrafos Favoritos</h1>
         <hr />
         <ListarFotografos photographers={photographers} handleFollow={handleFollow} userId={userId} />
         <h1>Actualizaciones</h1>

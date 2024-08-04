@@ -16,6 +16,7 @@ import { GaleriasEstilos } from "./pages/GaleriasEstilos";
 import { GaleriasTemas } from "./pages/GaleriasTemas";
 import { GaleriaFotos } from "./pages/GaleriaFotos";
 import FotografosFavoritos from "./pages/FotografosFavoritos";
+import { PreguntasFrecuentes } from "./pages/PreguntasFrecuentes";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import PrivateRoute from "./components/PrivateRoute";
@@ -38,6 +39,7 @@ function AppContent() {
         <Route path="/noticias" element={<Noticias />} />
         <Route path="/galerias" element={<Galerias />} />
         <Route path="/fotografos-favoritos" element={<FotografosFavoritos />} />
+        <Route path="/preguntas-frecuentes" element={<PreguntasFrecuentes />} />
         <Route path="/galerias/temas" element={<GaleriasTemas />}></Route>
         <Route path="/galerias/:id" element={<GaleriaFotos />}></Route>
         <Route path="/galerias/estilos" element={<GaleriasEstilos />}></Route>
