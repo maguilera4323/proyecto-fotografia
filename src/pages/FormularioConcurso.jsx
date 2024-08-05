@@ -1,5 +1,4 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
 
 export default function FormularioConcurso() {
   const [form, setForm] = useState({
@@ -31,16 +30,23 @@ export default function FormularioConcurso() {
     formData.append('nombrefoto', form.nombrefoto);
 
     selectedFiles.forEach((file, index) => {
-      formData.append(`file${index}`, file);
+      formData.append('photos', file); 
     });
 
-    emailjs.sendForm('service_ni1y1pa', 'template_wl1zfte', e.target, 'yKnoE3w4Knfg70Ipw')
-      .then((result) => {
-        console.log(result.text);
-        setSendSuccess(true);
+    fetch('http://localhost:3000/sendFormConcurso', {
+      method: 'POST',
+      body: formData,
+    })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          setSendSuccess(true);
+        } else {
+          setSendSuccess(false);
+        }
       })
       .catch((error) => {
-        console.log(error.text);
+        console.error('Error:', error);
         setSendSuccess(false);
       })
       .finally(() => {
@@ -50,6 +56,7 @@ export default function FormularioConcurso() {
           concurso: '',
           nombrefoto: ''
         });
+        setSelectedFiles([]);
       });
   };
 
@@ -58,7 +65,7 @@ export default function FormularioConcurso() {
       <div className="container d-flex justify-content-center align-items-center min-vh-100">
         <div className="row">
           <div className="col-12 col-md-7">
-            <div>
+            <div  className="shadow border p-4 rounded">
               <div className="col-12">
                 <div className="mb-5">
                   <br />
@@ -70,7 +77,7 @@ export default function FormularioConcurso() {
               </div>
               {sendSuccess !== null && (
                 <div>
-                  {sendSuccess ? 'Email sent successfully!' : 'Failed to send email.'}
+                  {sendSuccess ? ' Correo Enviado Exitosamente!' : 'Error al enviar el correo.'}
                 </div>
               )}
               <form onSubmit={handleSubmit}>
@@ -100,7 +107,7 @@ export default function FormularioConcurso() {
                       value={form.concurso}
                       onChange={handleChange}
                     >
-                      <option value="">Seleccione una opción</option>
+                       <option value="">Seleccione una opción</option>
                       <option value="Concurso de Fotografía de Emociones">Concurso de Fotografía de Emociones</option>
                       <option value="Concurso de Fotografía de Retratos">Concurso de Fotografía de Retratos</option>
                       <option value="Premio de Fotografía de Moda">Premio de Fotografía de Moda</option>
@@ -125,7 +132,7 @@ export default function FormularioConcurso() {
                   </div>
                   <div className="col-12">
                     <label htmlFor="nombrefoto" className="form-label">
-                      Nombre artístico de la fotografía{" "}
+                      Nombre artístico de la fotografía o fotografías{" "}
                       <span className="text-danger">*</span>
                     </label>
                     <input
@@ -140,7 +147,7 @@ export default function FormularioConcurso() {
                   </div>
                   <div className="mb-3">
                     <label htmlFor="photos" className="form-label">
-                      Seleccionar Fotografía
+                      Seleccionar Fotografías
                     </label>
                     <input
                       className="form-control"
@@ -169,7 +176,7 @@ export default function FormularioConcurso() {
                         className="btn bsb-btn-xl btn-primary"
                         disabled={isSending}
                       >
-                        {isSending ? 'Envaindo...' : 'Enviado'}
+                        {isSending ? 'Enviando...' : 'Enviar'}
                       </button>
                     </div>
                   </div>

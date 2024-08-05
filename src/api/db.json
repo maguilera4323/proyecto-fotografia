@@ -15,7 +15,8 @@
       "tipo": "fotografo",
       "followers": [
         3,
-        4
+        4,
+        1
       ],
       "foto": "../images/fotografos/attractive-1869761_1280.jpg"
     },
@@ -6500,13 +6501,12 @@
       ]
     }
   ],
-
   "entrevistas": [
     {
-      "id": 1,
+      "id": "1",
       "tema": "Un vistazo a la Fotografía de Naturaleza",
       "fotografo": "Daniel Miller",
-      "foto":"../images/fotografos/asian-man-1468032_1280.jpg",
+      "foto": "../images/fotografos/asian-man-1468032_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Daniel. Es un placer tenerte con nosotros. Tu trabajo en fotografía de naturaleza ha capturado la atención de muchos. ¿Qué te inspiró a comenzar en esta disciplina y cómo ha evolucionado tu enfoque a lo largo de los años?",
@@ -6523,10 +6523,10 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "tema": "Fotografía de Moda: Retos y Técnicas",
       "fotografo": "Jane Smith",
-      "foto":"../images/fotografos/attractive-1869761_1280.jpg",
+      "foto": "../images/fotografos/attractive-1869761_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Bienvenida, Jane. Tu trabajo en fotografía de moda ha sido aclamado por su elegancia y creatividad. ¿Podrías contarnos cómo comenzaste en la fotografía de moda y cómo ha evolucionado tu estilo?",
@@ -6543,10 +6543,10 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "tema": "El arte de los retratos",
       "fotografo": "James Jackson",
-      "foto":"../images/fotografos/man-8802769_1280.jpg",
+      "foto": "../images/fotografos/man-8802769_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, James. Tus retratos tienen una calidad emocional profunda que realmente destaca. ¿Qué técnicas empleas para capturar la esencia de tus sujetos?",
@@ -6563,10 +6563,10 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "tema": "Fotografía de Arquitectura: Sus Desafíos",
       "fotografo": "Laura Taylor",
-      "foto":"../images/fotografos/drinking-1839680_1280.jpg",
+      "foto": "../images/fotografos/drinking-1839680_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Laura. Tu trabajo en fotografía de arquitectura es notable por su precisión y creatividad. ¿Cómo abordas la fotografía de edificios y estructuras para transmitir su esencia?",
@@ -6583,10 +6583,10 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "tema": "La Esencia de los Eventos",
       "fotografo": "Miguel Fernández",
-      "foto":"../images/fotografos/entrepreneur-593358_1280.jpg",
+      "foto": "../images/fotografos/entrepreneur-593358_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Bienvenido, Miguel. Tu habilidad para capturar la esencia de los eventos es impresionante. ¿Cómo te preparas para una sesión de fotografía de eventos para asegurar que no te pierdas de los momentos clave?",
@@ -6601,11 +6601,12 @@
           "respuesta": "La capacidad de adaptarse rápidamente a cambios y situaciones imprevistas es crucial. También es importante tener un buen sentido del timing para captar momentos clave y ser capaz de trabajar en diferentes condiciones de iluminación y entornos. La comunicación con los organizadores del evento y la capacidad para trabajar bajo presión son habilidades que marcan la diferencia en la fotografía de eventos."
         }
       ]
-    },{
-      "id": 6,
+    },
+    {
+      "id": "6",
       "tema": "Fotografía de Paisajes",
       "fotografo": "Olivia Martín",
-      "foto":"../images/fotografos/hiking-8216486_1280.jpg",
+      "foto": "../images/fotografos/hiking-8216486_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Elena. Tu trabajo en fotografía de paisajes es impresionante. ¿Qué te llevó a elegir esta especialidad y cómo defines tu estilo?",
@@ -6622,10 +6623,10 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "tema": "Un Mundo Bajo el Agua: Fotografia Submarina",
       "fotografo": "Santiago Díaz",
-      "foto":"../images/fotografos/male-4494491_1280.jpg",
+      "foto": "../images/fotografos/male-4494491_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Santiago. La fotografía submarina es un campo fascinante. ¿Qué te motivó a entrar en este ámbito y cuáles son los mayores desafíos?",
@@ -6642,10 +6643,10 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "tema": "Fotografía de Arquitectura Interior",
       "fotografo": "Ricardo Sánchez",
-      "foto":"../images/fotografos/man-2564902_1280.jpg",
+      "foto": "../images/fotografos/man-2564902_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Ricardo. Tu trabajo en fotografía de arquitectura interior es fascinante. ¿Cómo abordas la captura de espacios interiores para que se vean lo mejor posible?",
@@ -6662,10 +6663,10 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "tema": "Fotografía de Eventos Sociales",
       "fotografo": "Patricia Gómez",
-      "foto":"../images/fotografos/girl-1787357_1280.jpg",
+      "foto": "../images/fotografos/girl-1787357_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Patricia. La fotografía de eventos sociales requiere capturar momentos significativos. ¿Cómo te aseguras de no perderte de los momentos clave durante un evento?",
@@ -6682,10 +6683,10 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "tema": "La Técnica de la Fotografía de Alimentos",
       "fotografo": "Mariana López",
-      "foto":"../images/fotografos/girl-1741941_1280.jpg",
+      "foto": "../images/fotografos/girl-1741941_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Mariana. La fotografía de alimentos puede ser todo un arte. ¿Qué te llevó a especializarte en este campo y qué te inspira en tus trabajos?",
@@ -6702,10 +6703,10 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "tema": "Intensidad de la Fotografía de Deportes",
       "fotografo": "Ricardo Pérez",
-      "foto":"../images/fotografos/man-3749344_1280.jpg",
+      "foto": "../images/fotografos/man-3749344_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Ricardo. La fotografía de deportes captura momentos de alta energía. ¿Cómo te preparas para capturar esos momentos decisivos?",
@@ -6722,10 +6723,10 @@
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "tema": "Fotografía de Viajes: Nuevas Experiencias",
       "fotografo": "Adriana Morales",
-      "foto":"../images/fotografos/woman-2150881_1280.jpg",
+      "foto": "../images/fotografos/woman-2150881_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Adriana. Tu fotografía de viajes muestra una increíble variedad de culturas y paisajes. ¿Qué te inspira a capturar estos momentos y lugares?",
@@ -6742,10 +6743,10 @@
       ]
     },
     {
-      "id": 13,
+      "id": "13",
       "tema": "Fotografía de Música",
       "fotografo": "Laura Ortega",
-      "foto":"../images/fotografos/woman-2564660_1280.jpg",
+      "foto": "../images/fotografos/woman-2564660_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Laura. La fotografía de música captura la energía de las actuaciones en vivo. ¿Cómo te preparas para una sesión de fotografía en un concierto?",
@@ -6762,10 +6763,10 @@
       ]
     },
     {
-      "id": 14,
+      "id": "14",
       "tema": "Momentos Inolvidables: Fotografia de Bodas",
       "fotografo": "Juan Carlos García",
-      "foto":"../images/fotografos/man-3803551_1280.jpg",
+      "foto": "../images/fotografos/man-3803551_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Juan Carlos. La fotografía de bodas captura momentos inolvidables. ¿Cómo te preparas para un día tan importante y cómo manejas el flujo del evento?",
@@ -6782,10 +6783,10 @@
       ]
     },
     {
-      "id": 15,
+      "id": "15",
       "tema": "Fotografia de Productos",
       "fotografo": "Gabriela Ruiz",
-      "foto":"../images/fotografos/woman-3116587_1280.jpg",
+      "foto": "../images/fotografos/woman-3116587_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Gabriela. La fotografía de productos es esencial para el marketing y las ventas. ¿Cómo abordas la creación de imágenes atractivas de productos?",
@@ -6802,10 +6803,10 @@
       ]
     },
     {
-      "id": 16,
+      "id": "16",
       "tema": "Fotografía de Moda Editorial",
       "fotografo": "Isabel Castro",
-      "foto":"../images/fotografos/woman-3134471_1280.jpg",
+      "foto": "../images/fotografos/woman-3134471_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Isabel. La fotografía de moda editorial es conocida por su creatividad y estilo. ¿Cómo trabajas con los diseñadores y estilistas para lograr una visión cohesiva?",
@@ -6822,10 +6823,10 @@
       ]
     },
     {
-      "id": 17,
+      "id": "17",
       "tema": "Fotografía de Arquitectura Exterior: Retos y Técnicas",
       "fotografo": "Alejandro Vargas",
-      "foto":"../images/fotografos/young-4778637_1280.jpg",
+      "foto": "../images/fotografos/young-4778637_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Alejandro. La fotografía de arquitectura exterior presenta retos únicos. ¿Cómo abordas la captura de edificios y estructuras desde el exterior?",
@@ -6842,10 +6843,10 @@
       ]
     },
     {
-      "id": 18,
+      "id": "18",
       "tema": "Fotografía de Retratos en Estudio",
       "fotografo": "Marta Fernández",
-      "foto":"../images/fotografos/woman-3571298_1280.jpg",
+      "foto": "../images/fotografos/woman-3571298_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Marta. La fotografía de retratos en estudio puede ser bastante técnica. ¿Cómo creas un ambiente que resalte la personalidad de tu sujeto?",
@@ -6861,51 +6862,13 @@
         }
       ]
     },
+    
+   
     {
-      "id": 19,
-      "tema": "Fotografía de Productos en E-Commerce",
-      "fotografo": "Luis Ortega",
-      "foto":"../images/fotografos/model-8191570_1280.jpg",
-      "entrevista": [
-        {
-          "pregunta": "Hola, Luis. La fotografía de productos para e-commerce es crucial para atraer a los clientes. ¿Qué aspectos consideras más importantes al fotografiar productos para una tienda en línea?",
-          "respuesta": "Hola. En la fotografía de productos para e-commerce, la claridad y la precisión son clave. Es importante mostrar el producto desde diferentes ángulos y en detalle para que los clientes puedan ver exactamente lo que están comprando. La iluminación uniforme y el fondo neutro ayudan a enfocar la atención en el producto y a evitar distracciones."
-        },
-        {
-          "pregunta": "¿Qué técnicas usas para asegurar la consistencia en la presentación de productos en un catálogo en línea?",
-          "respuesta": "Para asegurar la consistencia, mantengo un conjunto de reglas y configuraciones estándar para cada sesión de fotografía. Esto incluye la misma iluminación, el mismo fondo y el mismo enfoque en todos los productos. Utilizo una guía de estilo y reviso las imágenes para garantizar que cumplan con los estándares de presentación antes de subirlas al catálogo."
-        },
-        {
-          "pregunta": "¿Cómo manejas los detalles y los acabados de los productos para que se vean atractivos y precisos en las fotos?",
-          "respuesta": "Uso técnicas de iluminación y composición para resaltar los detalles y acabados del producto. La iluminación controlada ayuda a evitar reflejos no deseados y a resaltar las texturas. Además, realizo ajustes en la postproducción para mejorar la apariencia y asegurar que los detalles sean claros y precisos en las imágenes finales."
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "tema": "Fotografía de Eventos Corporativos",
-      "fotografo": "José Martínez",
-      "foto":"../images/fotografos/portrait-6228705_1280.jpg",
-      "entrevista": [
-        {
-          "pregunta": "Hola, José. La fotografía de eventos corporativos a menudo requiere capturar la profesionalidad y el ambiente del evento. ¿Cómo te preparas para una sesión de este tipo?",
-          "respuesta": "Hola. Me preparo revisando el itinerario del evento y coordinando con el organizador para entender los momentos clave. Aseguro que mi equipo esté listo para condiciones variadas y preparo un plan para cubrir todas las áreas importantes. Mi enfoque está en capturar la esencia del evento mientras mantengo una actitud profesional y discreta."
-        },
-        {
-          "pregunta": "¿Qué técnicas utilizas para capturar la atmósfera y los detalles importantes en eventos corporativos?",
-          "respuesta": "Uso técnicas como el enfoque selectivo y la captura en ráfaga para documentar tanto los momentos formales como los detalles sutiles. La iluminación puede ser un desafío, así que a menudo ajusto la configuración de mi cámara para adaptarme a diferentes condiciones y utilizo el flash cuando es necesario para asegurar una iluminación adecuada sin interrumpir el ambiente."
-        },
-        {
-          "pregunta": "¿Cómo manejas la interacción con los asistentes y las posibles interrupciones durante el evento?",
-          "respuesta": "Trato de ser lo menos intrusivo posible mientras capturo las imágenes necesarias. Mantengo una actitud profesional y me muevo con discreción para no interrumpir las interacciones o la programación del evento. La planificación previa y la comunicación con los organizadores me ayudan a anticipar y manejar cualquier situación que pueda surgir."
-        }
-      ]
-    },
-    {
-      "id": 21,
+      "id": "21",
       "tema": "Cuando la Moda se va a la Calle",
       "fotografo": "Claudia Ruiz",
-      "foto":"../images/fotografos/woman-7165664_1280.jpg",
+      "foto": "../images/fotografos/woman-7165664_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Claudia. La fotografía de moda en la calle ofrece un enfoque único. ¿Cómo eliges y capturas los looks y estilos urbanos?",
@@ -6922,10 +6885,10 @@
       ]
     },
     {
-      "id": 22,
+      "id": "22",
       "tema": "Animales Salvajes: Fotogrfía de la Naturaleza",
       "fotografo": "Fernando Silva",
-      "foto":"../images/fotografos/hiking-8216486_1280.jpg",
+      "foto": "../images/fotografos/hiking-8216486_1280.jpg",
       "entrevista": [
         {
           "pregunta": "Hola, Fernando. La fotografía de animales salvajes requiere paciencia y técnica. ¿Qué te motivó a especializarte en este campo y qué aspectos consideras más desafiantes?",
@@ -6941,6 +6904,5 @@
         }
       ]
     }
-
   ]
 }

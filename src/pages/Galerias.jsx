@@ -1,20 +1,17 @@
-/* import { ListaLibros } from "../components/ListaLibros";  */
-/* import { useState } from "react"; */
-/* import { helpHttp } from "../helpers/helpHTTP";  */
-
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'
 
 
 export function Galerias(){
-  /* const [datos, setDatos] = useState([]); */
+  const [isFotografo, setFotografo] = useState(false);
 
-  /* let api = helpHttp();
-  let url = "http://localhost:4500/criticas"
-  useEffect(()=>{
-    api.get(url).then((res)=>{
-      setDatos(res)
-    })
-  },[])  */
+  useEffect(() => {
+    const user = JSON.parse(localStorage.getItem('user'));
+    if (user.tipo == 'fotografo') {
+      setFotografo(true);
+    }
+  }, []);
+
   const cardStyle = {
     width: "25rem",
     height: "27rem",
@@ -63,6 +60,10 @@ export function Galerias(){
           </div>
         </div>
       </div>
+
+      <button className='btn btn-success mb-5'>
+        <Link style={{color:"white",fontSize:"16px"}}to={`/formulario-fotografias`}>Enviar Fotos a Editores</Link>
+      </button>
     </div>
   );
 }
