@@ -22,6 +22,7 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import PrivateRoute from "./components/PrivateRoute";
 import FormularioConcurso from "./pages/FormularioConcurso";
+import { EntrevistaDetalle } from "./pages/EntrevistaDetalle";
 
 function AppContent() {
   const location = useLocation();
@@ -37,6 +38,7 @@ function AppContent() {
         <Route path="/libros" element={<Libros />} />
         <Route path="/equipo" element={<Equipo />} />
         <Route path="/entrevistas" element={<Entrevistas />} />
+        <Route path="/entrevistas/:id" element={<EntrevistaDetalle />} />
         <Route path="/noticias" element={<Noticias />} />
         <Route path="/galerias" element={<Galerias />} />
         <Route path="/fotografos-favoritos" element={<FotografosFavoritos />} />
